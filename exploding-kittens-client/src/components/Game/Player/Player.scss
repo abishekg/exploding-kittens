@@ -1,0 +1,18 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E1563A;
+  margin: 1rem;
+  border: 2px solid black;
+  overflow-y: scroll;
+
+  &--reverse {
+    flex-direction: column-reverse;
+  }
+
+  &--active {
+    background: yellow;
+  }
+}

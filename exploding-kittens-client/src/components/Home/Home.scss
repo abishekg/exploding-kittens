@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+
+  &__header {
+    font-size: 3em;
+    text-align: center;
+    color: #E1563A;
+  }
+
+  &__sub-header {
+    font-size: 2em;
+  }
+
+  &__button {
+    margin-top: 11rem;
+    background: #FFF;
+    color: #000;
+    border-color: #E1563A;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    font-family: 'Bebas Neue', serif;
+    font-size: 2em;
+    cursor: pointer;
+
+    &:hover {
+      scale: 1.25;
+      font-weight: bold;
+      border-width: thick;
+    }
+  }
+}

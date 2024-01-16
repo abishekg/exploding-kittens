@@ -1,0 +1,32 @@
+.insert-exploding-kitten-card-into-the-deck {
+  position: relative;
+  margin: 5rem 10rem;
+
+  &__header {
+    scale: 1.25;
+    width: 18rem;
+  }
+
+  &__container {
+    display: flex;
+
+    &__card {
+      //margin-top: -5rem;
+    }
+
+    &__btn {
+      border: 1px solid black;
+      margin: 0.2rem;
+      width: 5rem;
+      text-align: center;
+
+      &__container {
+        width: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

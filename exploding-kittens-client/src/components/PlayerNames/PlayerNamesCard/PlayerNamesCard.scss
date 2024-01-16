@@ -1,0 +1,13 @@
+.player-names-card {
+  margin: 2rem;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+
+  &--num {
+    color: #E1563A;
+  }
+}

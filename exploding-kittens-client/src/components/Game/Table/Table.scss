@@ -1,0 +1,11 @@
+.table {
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+
+  &__empty-timer {
+    width: 5rem;
+  }
+}

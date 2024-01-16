@@ -1,0 +1,22 @@
+.card {
+  margin: 1rem;
+  height: 8rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  cursor: pointer;
+  flex-direction: column;
+  min-width: 4.5rem;
+
+  &--player {
+    z-index: 50;
+  }
+
+  &--deck {
+    background: #E1563A;
+    border: black 1px solid;
+    padding: 0.5rem;
+  }
+}
